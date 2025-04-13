@@ -30,11 +30,11 @@ nav:
   - Changelog: changelog.md
   - Dumping:
     - "What is dumping?": dumping.md
-    - "Firmware Dump Guide": fw.md
-    - "Games, Updates, and DLC Dump Guide": game-content.md
-    - "Key Dump Guide": keys.md
-    - "How to setup USB dumping": usb-dumping.md
-    - "FAQ & Troubleshooting": "faq-&-troubleshooting.md"
+    - "Firmware Dump Guide": dumping/fw.md
+    - "Games, Updates, and DLC Dump Guide": dumping/game-content.md
+    - "Key Dump Guide": dumping/keys.md
+    - "How to setup USB dumping": dumping/usb-dumping.md
+  - "FAQ & Troubleshooting": "faq-&-troubleshooting.md"
   - "Multiplayer (LDN/Local Wireless) Guide": ldn-guide.md
   - "Setup & Configuration Guide": setup-guide.md
 
