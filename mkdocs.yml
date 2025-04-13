@@ -1,0 +1,50 @@
+site_name: !ENV [DOCS_SITE_NAME, 'Ryubing Docs']
+site_url: !ENV [DOCS_SITE_URL, 'https://docs.ryujinx.app']
+repo_url: "https://git.ryujinx.app/ryubing/docs"
+repo_name: ""
+edit_uri: "-/blob/master/docs/"
+theme:
+  name: material
+  logo: favicon.png
+  favicon: favicon.png
+  features:
+    - header.autohide
+    - navigation.expand
+    - navigation.instant
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: pink
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Changelog: changelog.md
+  - Dumping:
+    - "What is dumping?": dumping.md
+    - "Firmware Dump Guide": fw.md
+    - "Games, Updates, and DLC Dump Guide": game-content.md
+    - "Key Dump Guide": keys.md
+    - "How to setup USB dumping": usb-dumping.md
+    - "FAQ & Troubleshooting": "faq-&-troubleshooting.md"
+  - "Multiplayer (LDN/Local Wireless) Guide": ldn-guide.md
+  - "Setup & Configuration Guide": setup-guide.md
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/ryujinx
+      name: Discord Server
