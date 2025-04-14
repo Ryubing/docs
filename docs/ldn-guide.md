@@ -1,19 +1,8 @@
-# ⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠
+!!! warning "Functionality notice"
+    **NOTE: this page is specifically for this fork of Ryujinx. These options do not exist in older versions of modern Ryujinx.**<br/>
+    Please be sure you are using at least 1.2.73 or Canary 1.2.29 (absolute latest version of either is recommended); these versions and those after it are the only ones capable of LDN.
 
-# NOTE: this Wiki page is specifically for this fork of Ryujinx. These options do not exist in older versions of modern Ryujinx.
-## Please be sure you are using at least 1.2.73 or Canary 1.2.29 (absolute latest version of either is recommended); these versions and those after it are the only ones capable of LDN.
-
-# ⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠
-
-## Table of Contents
-
-[LDN/Local Wireless](#ldn)
-
-[LDN Games & How to Play](#how-to-play-ldn)
-
-[LAN Mode](#lan-mode) 
- 
-[LAN Mode Game List & Cheat Sheet](#lan-mode-games)
+[TOC]
 
 LDN
 ===

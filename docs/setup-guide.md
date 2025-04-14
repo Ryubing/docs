@@ -4,49 +4,13 @@ This guide also illustrates how to use an untrimmed game cartridge dump (XCI fil
 
 If you haven't already downloaded Ryujinx, you can get the latest stable version
 from [here](https://github.com/Ryubing/Stable-Releases/releases/latest)
-and the latest canary build from [here](https://github.com/Ryubing/Canary-Releases/releases/latest).\
-Stable allows the end user to get a more **enjoyable and stable experience**.\
+and the latest canary build from [here](https://github.com/Ryubing/Canary-Releases/releases/latest).<br/>
+Stable allows the end user to get a more **enjoyable and stable experience**.<br/>
 Canary allow the user to get the latest features quickly, while being more unstable and possibly containing more bugs.
 
 Ryujinx checks for updates automatically at startup. You can disable this feature if you wish in Options > Settings . You may also check for updates manually by navigating to Help > Check for Updates.
 
-## Table of Contents
-
-[Preface](#preface)
-
-[System Requirements](#system-requirements)
-
-[Dependencies](#dependencies)
-
-[Initial Setup - Placement of prod.keys](#initial-setup---placement-of-prodkeys)
-
-[Initial Setup Continued - Installation of Firmware](#initial-setup-continued---installation-of-firmware)
-
-[Adding Your Games to Ryujinx](#adding-your-games-to-ryujinx)
-
-[Managing Game Updates](#managing-game-updates)
-
-[Managing DLC](#managing-dlc)
-
-[Managing Mods](#managing-mods)
-
-[Managing Cheats](#managing-cheats)
-
-[Managing User Profiles](#managing-user-profiles)
-
-[Input Configuration](#input-configuration)
-
-[Motion Controls](#motion-controls)
-
-[Amiibo Emulation](#amiibo-emulation)
-
-[Profiled Persistent Translation Cache](#profiled-persistent-translation-cache)
-
-[Graphics Enhancements](#graphics-enhancements)
-
-[Portable Mode](#portable-mode)
-
-[Launch in Fullscreen](#launch-in-fullscreen)
+[TOC]
 
 Preface
 =======
