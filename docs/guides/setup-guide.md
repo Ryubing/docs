@@ -34,7 +34,7 @@ In order to use *Ryujinx* your computer will need:
 
 -   A video card/GPU that supports OpenGL 4.5/Vulkan 1.2 or higher
 
--   Your **prod.keys** and either your **dumped firmware** or game
+-   Your [**prod.keys**](../dumping/keys/) and either your [**dumped firmware**](../dumping/fw/) or game
     cartridge untrimmed XCI
 
 -   Your dumped Nintendo Switch games or homebrew

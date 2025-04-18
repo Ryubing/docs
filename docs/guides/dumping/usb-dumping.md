@@ -1,6 +1,3 @@
----
-title: USB Dumping
----
 Basic setup, can be skipped if you already followed this guide: [Switch modding](https://switch.hacks.guide/)
 =======
 - Download the latest archive of the [Rewrite NROs](https://github.com/DarkMatterCore/nxdumptool/releases), and copy them to your SD card, somewhere in the switch/ directory.
@@ -16,11 +13,12 @@ USB-dumping
 - Use the [Host EXE](https://github.com/DarkMatterCore/nxdumptool/releases) found inside 
 `nxdt_host.7z` download.
 
-![image](uploads/189e48c53030a1e323f572d9982af8aa/image.png)
+![image](https://github.com/Ryubing/Assets/blob/main/docs/guides/dumping/ndxt_host_image.png?raw=true)
+
 - Click the big "Start Server" button
+![image](https://github.com/Ryubing/Assets/blob/main/docs/guides/dumping/nxdt_host_ui_image.png?raw=true)
 
-![image](uploads/9768548301a7927f63e234c42e996c74/image.png){width=25%}
 - On your console, change the "Output Storage" setting to usb host (pc)
+![image](https://github.com/Ryubing/Assets/blob/main/docs/guides/dumping/nxdt_changeoutputstorage.png?raw=true)
 
-![image](uploads/47c2876899bcb62c64f73062b055eac6/image.png)
 - Start dump on your console, and watch it transfer directly to your machine!

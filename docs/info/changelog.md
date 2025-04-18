@@ -22,8 +22,8 @@ Additionally, 1.2.74 & 75 were fixes for uploading Windows build artifacts.
 
 1.2.76 fixes a rare crash on startup.
 
-## [1.2.72](<https://github.com/GreemDev/Ryujinx/releases/tag/1.2.72>) - 2024-11-03
-PRs [#163](<https://github.com/GreemDev/Ryujinx/pull/163>), [#164](<https://github.com/GreemDev/Ryujinx/pull/164>), [#139](<https://github.com/GreemDev/Ryujinx/pull/139>)
+## 1.2.72 - 2024-11-03
+
 ### HLE:
  - Add DebugMouse HID device.
    - Fixes "Clock Tower Rewind" crashing while loading.
@@ -33,7 +33,7 @@ PRs [#163](<https://github.com/GreemDev/Ryujinx/pull/163>), [#164](<https://gith
 ### misc:
  - Update macOS distribution .icns.
 
-## [1.2.69](<https://github.com/GreemDev/Ryujinx/releases/tag/1.2.69>) - 2024-11-01
+## 1.2.69 - 2024-11-01
 ### Infra:
   - Compile the native libraries into the Ryujinx executable.
   - Remove `libarmeilleure-jitsupport.dylib` from Windows & Linux releases (dylibs are macOS-only)
@@ -43,8 +43,7 @@ PRs [#163](<https://github.com/GreemDev/Ryujinx/pull/163>), [#164](<https://gith
   - Replace "" with `string.Empty`.
   - Code cleanups & simplifications.
 
-## [1.2.67](<https://github.com/GreemDev/Ryujinx/releases/tag/1.2.67>) - 2024-11-01
-PRs [#36](<https://github.com/GreemDev/Ryujinx/pull/36>), [#135](<https://github.com/GreemDev/Ryujinx/pull/135>)
+## 1.2.67 - 2024-11-01
 
 ### GUI:
   - Set UseFloatingWatermark to false when watermark is empty
@@ -55,8 +54,7 @@ PRs [#36](<https://github.com/GreemDev/Ryujinx/pull/36>), [#135](<https://github
   - Fix homebrew loading.
 
 
-## [1.2.64](https://github.com/GreemDev/Ryujinx/releases/tag/1.2.64) - 2024-10-30
-PRs [#92](https://github.com/GreemDev/Ryujinx/pull/92), [#96](https://github.com/GreemDev/Ryujinx/pull/96), [#97](https://github.com/GreemDev/Ryujinx/pull/97),  [#101](https://github.com/GreemDev/Ryujinx/pull/101), [#103](https://github.com/GreemDev/Ryujinx/pull/103)
+## 1.2.64  - 2024-10-30
 ### GUI:
 - Option to show classic-style title bar. Requires restart of emulator to take effect.
   - This is only relevant on Windows. Other Operating Systems default to this being on and not being changeable, because the custom (current) title bar only works on Windows in the first place.
@@ -72,14 +70,13 @@ PRs [#92](https://github.com/GreemDev/Ryujinx/pull/92), [#96](https://github.com
 
 ## 1.2.59 - 2024-10-27
 
-PRs [#88](https://github.com/GreemDev/Ryujinx/pull/88), [#87](https://github.com/GreemDev/Ryujinx/pull/87)
 ### i18n:
 - fr_FR:
   - Add missing translations for new features & fix a couple wrong ones.
   - Fix Ignore Missing Services / Ignore Applet tooltip.
 
 ## 1.2.57 - 2024-10-27
-PRs [#60](https://github.com/GreemDev/Ryujinx/pull/60), [#42](https://github.com/GreemDev/Ryujinx/pull/42)
+
 ### GUI:
 - Automatically remove invalid DLC & updates as part of autoload.
 - Added Thai translation for Ignore Applet hover tooltip.
@@ -105,7 +102,6 @@ PRs [#60](https://github.com/GreemDev/Ryujinx/pull/60), [#42](https://github.com
 - Code cleanup.
 
 ## 1.2.44 - 2024-10-25
-PR [#59](https://github.com/GreemDev/Ryujinx/pull/59)
 ### GUI:
 - Add descriptions for "ignoring applet" translated into other languages.
 
@@ -118,9 +114,9 @@ NOTE: The translation isn't referenced in the code yet, it will be in the next u
 ## 1.2.42 - 2024-10-24
 Sources:
 
-Init function: https://github.com/MutantAura/Ryujinx/commit/9cef4ceba40d66492ff775af793ff70e6e7551a9
+Init function: [<link\>](https://web.archive.org/web/20241122193401/https://github.com/MutantAura/Ryujinx/commit/9cef4ceba40d66492ff775af793ff70e6e7551a9)
 
-Shader counter: https://github.com/MutantAura/Ryujinx/commit/67b873645fd593e83d042a77bf7ab12e5ec97357
+Shader counter: [<link\>](https://github.com/MutantAura/Ryujinx/commit/67b873645fd593e83d042a77bf7ab12e5ec97357) (unavailable due to DMCA)
 
 Thanks MutantAura :D
 ### GUI:
@@ -128,14 +124,12 @@ Thanks MutantAura :D
 - Remove graphics backend / GPU name event logic in favor of a single init function.
 
 ## 1.2.41 - 2024-10-24
-PR [#54](https://github.com/GreemDev/Ryujinx/pull/54)
 
 Thanks Whitescatz!
 ### i18n:
 - th_TH (Thai): Added missing translations, reduce transliterated words, fix grammar.
 
 ## 1.2.40 - 2024-10-23
-PR [#40](https://github.com/GreemDev/Ryujinx/pull/40)
 
 Thanks Вова С!
 ### GUI:
@@ -149,30 +143,25 @@ Thanks Вова С!
   - Should prevent crashing on config loads in some circumstances.
 
 ## 1.2.38 - 2024-10-23
-PR [#51](https://github.com/GreemDev/Ryujinx/pull/51)
 ### i18n:
 - zh_CH (Simplified Chinese): Add some missing translations.
 
 ## 1.2.37 - 2024-10-23
-PR [#37](https://github.com/GreemDev/Ryujinx/pull/37)
 
 Thanks Last Breath!
 ### GUI: 
 - Set the default controller to the Pro Controller.
 
 ## 1.2.36 - 2024-10-21
-PR [#30](https://github.com/GreemDev/Ryujinx/pull/30)
 ### GUI:
 - Fix repeated dialog popup notifying you of new updates when there aren't any, while having a bundled update inside an XCI and an external update file.
 
 ## 1.2.35 - 2024-10-21
-PR [#32](https://github.com/GreemDev/Ryujinx/pull/32)
 ### GUI:
 - Replace "expand DRAM" option with a DRAM size dropdown.
   - Allows for using mods which require a ridiculous amount of memory to allocate from.
 
 ## 1.2.34 - 2024-10-21
-PR [#29](https://github.com/GreemDev/Ryujinx/pull/29)
 ### GUI:
 - Fix duplicate controller names when 2 controllers of the same type are connected.
 ### INPUT:
@@ -249,7 +238,7 @@ Added Low-power PPTC mode strings to the translation files.
 ## 1.2.1-1.2.19 - 2024-10-08 - 2024-10-11
 ### GUI/INFRA/MISC:
 - Remove GTK UI.
-- Autoload DLC/Updates from dir ([#12](https://github.com/GreemDev/Ryujinx/pull/12)).
+- Autoload DLC/Updates from dir ([#12](https://web.archive.org/web/20241127004005/https://github.com/GreemDev/Ryujinx/pull/12)).
 - Changed executable icon to rainbow logo.
 - Extract Data > Logo now also extracts the square thumbnail you see for the game in the UI. 
 - The "use random UUID hack" checkbox in the Amiibo screen now remembers its last state when you reopen the window in a given session.

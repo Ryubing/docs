@@ -12,32 +12,36 @@ theme:
     - navigation.expand
     - navigation.instant
   palette:
-    - scheme: default
-      primary: deep purple
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
     - scheme: slate
       primary: red
       accent: pink
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
 
 nav:
   - Home: index.md
-  - Changelog: changelog.md
-  - Dumping:
-    - "What is dumping?": dumping.md
-    - "Firmware Dump Guide": dumping/fw.md
-    - "Games, Updates, and DLC Dump Guide": dumping/game-content.md
-    - "Key Dump Guide": dumping/keys.md
-    - "How to setup USB dumping": dumping/usb-dumping.md
-  - "FAQ & Troubleshooting": "faq-&-troubleshooting.md"
-  - "Multiplayer (LDN/Local Wireless) Guide": ldn-guide.md
-  - "Setup & Configuration Guide": setup-guide.md
-
+  - Guides:
+    - "Multiplayer (LDN/Local Wireless) Guide": guides/ldn-guide.md
+    - "Setup & Configuration Guide": guides/setup-guide.md
+    - Dumping:
+      - "Firmware Dump Guide": guides/dumping/fw.md
+      - "Games, Updates, and DLC Dump Guide": guides/dumping/game-content.md
+      - "Key Dump Guide": guides/dumping/keys.md
+      - "How to setup USB dumping": guides/dumping/usb-dumping.md
+  - Information:
+    - "What is dumping?": info/dumping.md
+    - Changelog: info/changelog.md
+    - "FAQ & Troubleshooting": "info/faq-&-troubleshooting.md"
+  - Developers:
+    - "Contributing to the Project": dev/contributing.md
 
 markdown_extensions:
   - admonition
