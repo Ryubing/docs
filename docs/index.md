@@ -58,7 +58,7 @@ You can find the latest stable release [here](https://github.com/Ryubing/Stable-
     Canary builds are compiled automatically for each commit on the `master` branch.
     While we strive to ensure optimal stability and performance prior to pushing an update, these builds **may be unstable or completely broken**.
     These canary builds are only recommended for experienced users.
-
+    <br/>
     You can find the latest canary release [here](https://github.com/Ryubing/Canary-Releases/releases/latest).
 
 ## Features

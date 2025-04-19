@@ -41,7 +41,9 @@ nav:
     - Changelog: info/changelog.md
     - "FAQ & Troubleshooting": "info/faq-&-troubleshooting.md"
   - Developers:
+    - Compilation: dev/compilation.md
     - "Contributing to the Project": dev/contributing.md
+    - "C# Code Style": dev/code-style.md
 
 markdown_extensions:
   - admonition
