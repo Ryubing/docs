@@ -52,10 +52,12 @@ markdown_extensions:
   - toc
 extra:
   social:
+    - icon: fontawesome/regular/heart
+      link: https://github.com/sponsors/GreemDev
+      name: Support the Project
     - icon: fontawesome/brands/discord
       link: https://discord.gg/ryujinx
       name: Discord Server
-      social:
     - icon: fontawesome/solid/house
       link: https://ryujinx.app
       name: Main Website
