@@ -5,7 +5,7 @@ Please read the entire document before continuing as it can potentially save eve
 
 # Quick Links
 
-* [Code Style Documentation](docs/coding-guidelines/coding-style.md)
+* [Code Style Documentation](dev/code-style)
 
 ## Reporting Issues
 
@@ -38,7 +38,7 @@ The [License](https://github.com/Ryubing/Ryujinx/blob/master/LICENSE.txt) docs d
 ### DOs and DON'Ts
 
 !!! check "Please do:"
-    * **DO** follow our [coding style](docs/coding-guidelines/coding-style.md) (C# code-specific).
+    * **DO** follow our [coding style](dev/code-style) (C# code-specific).
     * **DO** give priority to the current style of the project or file you're changing even if it diverges from the general guidelines.
     * **DO** keep the discussions focused. When a new or related topic comes up it's often better to create new issue than to side track the discussion.
     * **DO** clearly state on an issue that you are going to take on implementing it.
@@ -64,7 +64,7 @@ We use and recommend the following workflow:
 3. In your fork, create a branch off of main (`git checkout -b mybranch`).
     - Branches are useful since they isolate your changes from incoming changes from upstream. They also enable you to create multiple MRs from the same fork.
 4. Make and commit your changes to your branch.
-    - [Build Instructions](https://github.com/Ryubing/Ryujinx/blob/master/COMPILING.md) explains how to build and test.
+    - [Build Instructions](dev/compilation/) explains how to build and test.
     - Commit messages should be clear statements of action and intent.
 6. Build the repository with your changes.
     - Make sure that the builds are clean.
