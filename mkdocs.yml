@@ -1,6 +1,6 @@
 site_name: !ENV [DOCS_SITE_NAME, 'Ryubing Docs']
 site_url: !ENV [DOCS_SITE_URL, 'https://docs.ryujinx.app']
-repo_url: "https://git.ryujinx.app/ryubing/ryujinx"
+repo_url: "https://git.ryujinx.app/projects/Ryubing"
 repo_name: "Ryubing"
 edit_uri: ""
 theme:
@@ -25,6 +25,8 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
+extra_css: 
+  - css/image-hide-based-on-theme.css
 
 nav:
   - Home: index.md
@@ -46,6 +48,7 @@ nav:
     - "C# Code Style": dev/code-style.md
 
 markdown_extensions:
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences

@@ -7,12 +7,12 @@
           
 <h1>Ryujinx<h1>
 
-<a href="https://github.com/Ryubing/Stable-Releases/releases/latest">
-  <img src="https://img.shields.io/github/v/release/Ryubing/Stable-Releases?label=stable" alt="Stable Releases">
+<a href="https://update.ryujinx.app/latest/stable">
+  <img src="https://git.ryujinx.app/projects/Ryubing/badges/release.svg?label=stable&color=32cd32" alt="Stable Releases">
 </a>
 
-<a href="https://github.com/Ryubing/Canary-Releases/releases/latest">
-  <img src="https://img.shields.io/github/v/release/Ryubing/Canary-Releases?label=canary" alt="Canary Releases">
+<a href="https://update.ryujinx.app/latest/canary">
+  <img src="https://git.ryujinx.app/Ryubing/Canary/badges/release.svg?label=canary&color=FF4500" alt="Canary Releases">
 </a>
 <br>
 <a href="https://discord.gg/PEuzjrFXUA">
@@ -26,7 +26,7 @@
   Ryujinx is an open-source Nintendo Switch emulator, originally created by gdkchan, written in C#.
   This emulator aims at providing excellent accuracy and performance, a user-friendly interface and consistent builds.
   It was written from scratch and development on the project began in September 2017.
-  Ryujinx is available on a self-managed GitLab instance under the <a href="https://git.ryujinx.app/ryubing/ryujinx/-/blob/master/LICENSE.txt?ref_type=heads" target="_blank">MIT license</a>.
+  Ryujinx is available on a self-managed <a href="https://github.com/Ryubing/forgejo" target="_blank">modified</a> <a href="https://forgejo.org/" target="_blank">Forgejo</a> instance under the <a href="https://git.ryujinx.app/projects/Ryubing/src/branch/master/LICENSE.txt" target="_blank">MIT license</a>.
   <br />
 </p>
 <p align="center">
@@ -52,14 +52,14 @@ Stable builds are made every so often, based on the `master` branch, that then g
 These stable builds exist so that the end user can get a more **enjoyable and stable experience**.
 They are released every month or so, to ensure consistent updates, while not being an annoying amount of individual updates to download over the course of that month.
 
-You can find the latest stable release [here](https://github.com/Ryubing/Stable-Releases/releases/latest).
+You can find the latest stable release [here](https://git.ryujinx.app/projects/Ryubing/releases/latest).
 
 ??? warning "Canary builds"
     Canary builds are compiled automatically for each commit on the `master` branch.
     While we strive to ensure optimal stability and performance prior to pushing an update, these builds **may be unstable or completely broken**.
     These canary builds are only recommended for experienced users.
     <br/>
-    You can find the latest canary release [here](https://github.com/Ryubing/Canary-Releases/releases/latest).
+    You can find the latest canary release [here](https://git.ryujinx.app/Ryubing/Canary/releases/latest).
 
 ## Features
 
@@ -105,13 +105,13 @@ You can find the latest stable release [here](https://github.com/Ryubing/Stable-
 
 ## License
 
-This software is licensed under the terms of the [MIT license](https://git.ryujinx.app/ryubing/ryujinx/-/blob/master/LICENSE.txt?ref_type=heads).
+This software is licensed under the terms of the [MIT license](https://git.ryujinx.app/projects/Ryubing/src/branch/master/LICENSE.txt).
 This project makes use of code authored by the libvpx project, licensed under BSD and the ffmpeg project, licensed under LGPLv3.
-See [LICENSE.txt](https://git.ryujinx.app/ryubing/ryujinx/-/blob/master/LICENSE.txt?ref_type=heads) and [THIRDPARTY.md](https://git.ryujinx.app/ryubing/ryujinx/-/blob/master/distribution/legal/THIRDPARTY.md?ref_type=heads) for more details.
+See [LICENSE.txt](https://git.ryujinx.app/projects/Ryubing/src/branch/master/LICENSE.txt) and [THIRDPARTY.md](https://git.ryujinx.app/projects/Ryubing/src/branch/master/distribution/legal/THIRDPARTY.md) for more details.
 
 ## Credits
 
-- [LibHac](https://github.com/Thealexbarney/LibHac) is used for our file-system.
+- [LibHac](https://git.ryujinx.app/projects/Ryubing) is used for our file-system.
 - [AmiiboAPI](https://www.amiiboapi.com) is used in our Amiibo emulation.
 - [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm) is used for one of our available multiplayer modes.
 - [ShellLink](https://github.com/securifybv/ShellLink) is used for Windows shortcut generation.
