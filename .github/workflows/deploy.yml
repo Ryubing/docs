@@ -32,5 +32,17 @@ jobs:
         python -m pip install --upgrade --no-cache-dir pip setuptools mkdocs
         python -m pip install --exists-action=w --no-cache-dir -r requirements.txt 
 
-    - name: Deploy Ryu docs
-      run: python -m mkdocs gh-deploy --clean --config-file mkdocs.yml
+    - name: Build Ryu docs
+      run: python -m mkdocs build --clean --config-file mkdocs.yml -d MkdocsOutput/
+
+    - name: Push to the gh-pages branch
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        source-directory: 'MkdocsOutput'
+        destination-github-username: 'Ryubing'
+        destination-repository-name: 'docs'
+        user-name: "GitHub Actions on behalf of GreemDev"
+        user-email: greemdev@ryujinx.app
+        target-branch: gh-pages
