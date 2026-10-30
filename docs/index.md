@@ -5,7 +5,7 @@
         </td>
         <td align="center" width="75%">
           
-<h1>Ryujinx<h1>
+<h1 class="ryu-gradient-text-centered">Ryujinx<h1>
 
 <a href="https://update.ryujinx.app/latest/stable">
   <img src="https://git.ryujinx.app/projects/Ryubing/badges/release.svg?label=stable&color=32cd32" alt="Stable Releases">
@@ -15,7 +15,7 @@
   <img src="https://git.ryujinx.app/Ryubing/Canary/badges/release.svg?label=canary&color=FF4500" alt="Canary Releases">
 </a>
 <br>
-<a href="https://discord.gg/PEuzjrFXUA">
+<a href="https://discord.ryujinx.app">
 <img src="https://img.shields.io/discord/1294443224030511104?color=5865F2&label=Ryubing&logo=discord&logoColor=white" alt="Discord">
 </a>
         </td>
@@ -26,7 +26,7 @@
   Ryujinx is an open-source Nintendo Switch emulator, originally created by gdkchan, written in C#.
   This emulator aims at providing excellent accuracy and performance, a user-friendly interface and consistent builds.
   It was written from scratch and development on the project began in September 2017.
-  Ryujinx is available on a self-managed <a href="https://github.com/Ryubing/forgejo" target="_blank">modified</a> <a href="https://forgejo.org/" target="_blank">Forgejo</a> instance under the <a href="https://git.ryujinx.app/projects/Ryubing/src/branch/master/LICENSE.txt" target="_blank">MIT license</a>.
+  Ryujinx is available on a self-managed <a class="forgejo-gradient-text" href="https://forgejo.org/" target="_blank">modified Forgejo</a> instance under the <a href="https://git.ryujinx.app/projects/Ryubing/src/branch/master/LICENSE.txt" target="_blank">MIT license</a>.
   <br />
 </p>
 <p align="center">
@@ -35,10 +35,6 @@
   This fork is intended to be a QoL uplift for existing Ryujinx users.
   <br>
   This is not a Ryujinx revival project. This is not a phoenix project.
-</p>
-
-<p align="center">
-    <img src="https://github.com/Ryubing/Assets/blob/main/docs/various-ryujinx-windows.png?raw=true" alt="Ryujinx example">
 </p>
 
 ## Usage

@@ -27,6 +27,7 @@ theme:
 
 extra_css: 
   - css/image-hide-based-on-theme.css
+  - css/gradients.css
 
 nav:
   - Home: index.md

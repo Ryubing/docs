@@ -27,20 +27,22 @@ jobs:
       with:
         python-version: '3.11.12'
 
+    - name: Setup uv
+      uses: astral-sh/setup-uv@v10.3.3
+
     - name: Setup Project
       run: |
-        python -m pip install --upgrade --no-cache-dir pip setuptools mkdocs
-        python -m pip install --exists-action=w --no-cache-dir -r requirements.txt 
+        uv sync --locked --all-extras --dev
 
     - name: Build Ryu docs
-      run: python -m mkdocs build --clean --config-file mkdocs.yml -d MkdocsOutput/
+      run: uv run zensical build --clean --config-file mkdocs.yml
 
     - name: Push to the gh-pages branch
       uses: cpina/github-action-push-to-another-repository@main
       env:
         API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
       with:
-        source-directory: 'MkdocsOutput'
+        source-directory: 'site'
         destination-github-username: 'Ryubing'
         destination-repository-name: 'docs'
         user-name: "GitHub Actions on behalf of GreemDev"

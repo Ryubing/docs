@@ -1,0 +1,21 @@
+
+.ryu-gradient-text {
+  background: linear-gradient(to right, #02C5E5 0%, #02C5E5 25%, #FF5F56 75%, #FF5F56 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ryu-gradient-text-centered {
+  background: linear-gradient(to right, #02C5E5 0%, #02C5E5 45%, #FF5F56 55%, #FF5F56 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.forgejo-gradient-text {
+  background: linear-gradient(to right, #FF6600 0%, #FF6600 35%, #CC0000 60%, #CC0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -1,0 +1,22 @@
+[project]
+name = "ryujinx-docs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "GreemDev", email = "greemdev@ryujinx.app" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ryujinx-docs = "ryujinx_docs:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.73",
+]
